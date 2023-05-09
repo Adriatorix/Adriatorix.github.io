@@ -2220,8 +2220,21 @@ header .logo a {
 	font-family: "poppins-medium", sans-serif;
 	color: white;
 }
+#stats .stat-label {
+	color: #FFFFFF;
+	font-size: 3.6rem;
+	margin-top: 1.2rem;
+	margin-bottom: 0;
+	font-family: "poppins-medium", sans-serif;
+	color: white;
+}
 #stats .stat-title {
 	color: rgba(255, 255, 255, 0.5);
+}
+#stats .stat-container {
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
 }
 
 /**
