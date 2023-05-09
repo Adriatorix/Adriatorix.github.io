@@ -36,9 +36,12 @@
  * ------------------------------------------------------------------- 
  */
 @import url("fonts.css");
-@import url("font-awesome/css/font-awesome.min.css");
 @import url("micons/micons.css");
-
+@import url("fa6/css/all.min.css");
+@import url("fa6/css/brands.css");
+@import url("fa6/css/fontawesome.min.css");
+@import url("fa6/css/regular.min.css");
+@import url("fa6/css/solid.min.css");
 
 /** 
  * ===================================================================
@@ -1294,7 +1297,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: #151515 url(../images/dev.jpg) no-repeat center bottom;
+	background: #151515 url(../images/dev.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1417,7 +1420,9 @@ header .logo a {
 .intro-social li a:hover, .intro-social li a:focus {
 	color: #b01515;
 }
-
+.intro-social li i{
+	font-size: 45px;
+}
 /**
  * responsive:
  * Intro
@@ -1453,6 +1458,9 @@ header .logo a {
 	.intro-social li {
 		margin: 0 10px;
 	}
+	.intro-social li i{
+		font-size: 35px;
+	}
 }
 @media only screen and (max-width:600px) {
 	#intro {
@@ -1478,6 +1486,9 @@ header .logo a {
 	}
 	.intro-social {
 		font-size: 2.4rem;
+	}
+	.intro-social li i{
+		font-size: 30px;
 	}
 }
 
@@ -2182,7 +2193,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #stats {
-	background: #070078;
+	background: #730808;
 	padding-top: 7.2rem;
 	padding-bottom: 6rem;
 	text-align: center;
